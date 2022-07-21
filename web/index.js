@@ -29,7 +29,7 @@ async function run() {
     })
 
     input.addEventListener(
-        'click',
+        'change',
         evt => {
             // Stop previous game from rendering, if one exists
             if (anim_frame != 0) {

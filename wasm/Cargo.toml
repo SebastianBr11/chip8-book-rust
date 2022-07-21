@@ -9,7 +9,7 @@ edition = "2021"
 chip8_core = { path = "../chip8_core"}
 js-sys = "0.3.58"
 wasm-bindgen = "0.2.81"
-web-sys = {version = "0.3.58", features = ["KeyboardEvent"]}
+web-sys = {version = "0.3.58", features = ["CanvasRenderingContext2d", "Document", "Element", "HtmlCanvasElement", "ImageData", "KeyboardEvent", "Window"]}
 
 [lib]
 crate-type = ["cdylib"]
