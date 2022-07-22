@@ -93,6 +93,7 @@ fn draw_screen(emu: &Emu, canvas: &mut Canvas<Window>) {
             canvas.fill_rect(rect).unwrap();
         }
     }
+    canvas.present();
 }
 
 fn key2btn(key: Keycode) -> Option<usize> {
